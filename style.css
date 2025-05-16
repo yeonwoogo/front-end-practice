@@ -1,0 +1,93 @@
+body {
+    background-color: #d0f0fd;
+    font-family: 'Jua', sans-serif;
+}
+h1 {
+    color: #333333;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+h2 {
+    color: #333333;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;    
+}
+.image-text-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.damgomi {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.info-box {
+    width: 300px;
+    height: 300px;
+    background-color: #fff8dc; 
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 15;
+}
+
+.form-box {
+    margin-top: 30px;
+    background-color: #fff8dc;
+    padding: 20px;
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+textarea {
+  width: 600px;
+  height: 80px;
+  border: 2px solid #ffd5ec;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #fffafc;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.2s ease;
+}
+.image-text-wrap2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.schedule-box {
+    width: 380px;
+    height: 470px;
+    background-color: #fff8dc; 
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 23px;
+}
+.threedamgom {
+    width: 300px;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+#list {
+    list-style: "✅";
+}

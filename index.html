@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>초 대 장</h1>
+    <h2>"담곰이의 생일파티에 초대합니다"</h2>
+    <div class="image-text-wrap">
+        <img src="./img/생일담곰.png" alt="담곰이" class="damgomi">
+        <div class="info-box">
+            <p style="font-size: 20px;"><strong>🎉 생일파티 안내사항 🎉</strong></p>
+            <ul>
+                <li>📅 날짜: 2025년 5월 17일</li>
+                <li>📍 장소: 담곰이네 집</li>
+                <li>⏰ 시간: 오후 1시</li>
+                <li>🎁 준비물: 편지와 작은 선물</li>
+                <li>⚠️ 참석 응답은 꼭 보내줘~!</li>
+            </ul>
+        </div>
+    </div> 
+    <div class="form-box">
+        <p style="font-size: 30px; margin-bottom: 3px;"><strong>💌 초대에 응답하기</strong></p></br>
+        <label for="name">이름:</label>
+        <input type="text" id="name" name="username">
+        <label for="phone">전화변호:</label>
+        <input type="tel" id="phone" name="phone" placeholder="010-1234-5678"><br>
+        <label for="attendance">참석 여부:</label>
+        <select id="attendance" name="attendance">
+            <option value="yes">참석할게!</option>
+            <option value="no">미안🙏 못갈거같아~ㅠㅠ😢</option>
+        </select><br>
+
+        <label for="message" style="display: block;">하고 싶은 말:</label>
+        <textarea id="message" name="message" rows="3" placeholder="담곰이에게 생일축하 한마디 부탁해~😊"></textarea>
+
+        <button type="submit">보내기 💌</button>
+    </div>
+    <div class="image-text-wrap2">
+        <div class="schedule-box">
+            <p style="font-size:30px; margin-bottom:3px;"><strong>파티 순서🎉</strong></p>
+            <ul id="list">
+                <li> 파티 참석자 출석 check! </li>
+                <li> 담곰이의 덕담 한마디 듣기 </li>
+                <li> 담곰이에게 하고 싶은 말 추첨<br>
+                    -> 당첨자에게게는 엄청난 선물이!!</li>
+                <li> 담곰이 생일케이크 불기 </li>
+                <li> 담곰이 생일선물 증정식 </li>
+                <li> PARTY TIME! </li>
+                <li> 담곰이의 답례품 증정식 </li>
+                <li> 집 가기~!</li>
+            </ul>
+        </div>
+        <img src="./img/담곰세마리.png" alt="담곰세마리" class="threedamgom">
+    </div>
+
+</body>
+</html>
